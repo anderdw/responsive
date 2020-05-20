@@ -2,7 +2,12 @@ nav {
     padding-bottom: 25px;
     margin-bottom: 50px;
 }
-
+h1 {
+  color: black;
+  text-align: center;
+  margin: 50px;
+  padding-top: 25px;
+}
 body {
     font-family: 'Montserrat', sans-serif;
     color: orangered;
@@ -12,6 +17,7 @@ body {
     width: 100%;
     max-width: auto;
     height: auto;
+    margin-bottom: 25px;
   }
 
 .iframe-container {
@@ -43,3 +49,65 @@ body {
 .card {
     margin-bottom: 50px;
 }
+
+.container-home {
+  position: relative;
+  text-align: justify;
+  font-size: 100px;
+  color: aliceblue;
+  font-style: oblique;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Portfolio styles */
+
+  
+
+.card-portfolio {
+   
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    min-height: 1px;
+    text-align: -webkit-center;
+    padding: 1.25rem;
+    background-color: paleturquoise;
+  }
+  
+.card-header-1 {
+    background-color: blanchedalmond;
+    color: palevioletred;
+    text-align: auto;
+  }
+
+.card-body-1 {
+  background-color: palevioletred;
+  box-sizing: border-box;
+  margin: 50px;
+}
+
+.card-port {
+  border: paleturquoise;
+  border-radius: 1000px;
+  padding: 1.25rem;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color:blanchedalmond;
+}
+
+.card-body-port {
+  background-color: blanchedalmond;
+  color: palevioletred;
+}
+
+.responsive1 {
+  width: 75%;
+  max-width: 200px;
+  height: 75%;
+  margin-bottom: 25px;
+}
+
